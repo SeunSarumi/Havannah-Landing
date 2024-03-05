@@ -1,4 +1,5 @@
 import styles from "./CleaningHero.module.css";
+import CleaningPopOut1 from "./CleaningPopOut1";
 
 function CleaningHero() {
   return (
@@ -10,9 +11,10 @@ function CleaningHero() {
           clutter-free life with our tailored solutions.
         </h3>
         <a className={styles.btn} href="">
-          Book a Session
+          Book a Session &gt;
         </a>
       </header>
+      <CleaningPopOut1 />
     </div>
   );
 }

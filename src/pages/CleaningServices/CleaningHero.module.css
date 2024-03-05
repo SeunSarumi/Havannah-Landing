@@ -11,6 +11,10 @@
   /* margin-top: -3rem; */
 }
 
+header {
+  margin-bottom: 21.2rem;
+}
+
 .heroTextBox {
   display: flex;
   flex-direction: column;
@@ -24,12 +28,15 @@
   font-size: 9.6rem;
   font-weight: 700;
   line-height: 114px;
+  color: var(--color-primary);
+  margin-bottom: 2rem;
 }
 
 .headerSecondary {
   font-size: 3.2rem;
   color: var(--color-font-h2);
   line-height: 45.76px;
+  margin-bottom: 4.3rem;
 }
 
 .btn:link,
@@ -38,7 +45,7 @@
   text-decoration: none;
   color: var(--color-font-light);
   background-color: var(--color-btn);
-  padding: 2rem 2.45rem 2rem 2.45rem;
+  padding: 2rem 3.428rem 2rem 3.428rem;
   font-size: 2.2rem;
   font-weight: 800;
   border-radius: 10px;

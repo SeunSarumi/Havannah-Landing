@@ -3,10 +3,10 @@ import CleaningNav from "./CleaningNav";
 
 function CleaningMain() {
   return (
-    <div>
+    <main>
       <CleaningNav />
       <CleaningHero />
-    </div>
+    </main>
   );
 }
 
