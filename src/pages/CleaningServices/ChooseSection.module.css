@@ -1,0 +1,98 @@
+.img1 {
+  width: 100%;
+}
+
+.header {
+  margin-top: 10rem;
+  padding: 7.5rem;
+  font-size: 4.8rem;
+  color: var(--color-primary-lighter);
+  font-weight: 800;
+  line-height: 114px;
+}
+
+.container {
+  padding: 7.5rem;
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  max-width: 156rem;
+  margin: 0 auto;
+}
+
+.iconsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 29rem);
+  grid-template-rows: repeat(2, 24rem);
+}
+
+.iconContained {
+  /* background-color: #ffdd; */
+  width: 19rem;
+}
+
+.primaryText {
+  margin-top: 1.3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 22.2px;
+  color: var(--color-primary-lighter);
+}
+
+.secondaryText {
+  margin-top: 1.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 22.2px;
+  color: var(--color-black);
+}
+
+/* img */
+.imgContainer img {
+  width: 100%;
+}
+
+/* Pop out section */
+.popOutContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  margin-top: -9%;
+  margin-left: 20%;
+  height: 19.3rem;
+  width: 81.2rem;
+  background-color: rgba(218, 245, 255, 1);
+  border-radius: 20px;
+  padding: 3rem;
+}
+
+.popOutHeader {
+  font-weight: 800;
+  color: var(--color-font-light);
+  line-height: 33px;
+  padding: 1.4rem 2.3rem 1.4rem 8.794rem;
+  border-radius: 10px;
+  background-color: rgba(0, 114, 156, 1);
+  align-self: self-end;
+}
+
+.popOutHeader h2 {
+  font-size: 2.4rem;
+}
+
+.popOutSecondary {
+}
+
+.popOutSecondary h3 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: rgba(0, 114, 156, 1);
+}
+
+@media (max-width: 107em) {
+  .popOutContainer {
+    margin-top: -11%;
+    margin-left: 20%;
+  }
+}

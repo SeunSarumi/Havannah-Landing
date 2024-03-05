@@ -1,3 +1,4 @@
+import ChooseSection from "./ChooseSection";
 import CleaningHero from "./CleaningHero";
 import CleaningNav from "./CleaningNav";
 import IconFeatures from "./IconFeatures";
@@ -8,6 +9,7 @@ function CleaningMain() {
       <CleaningNav />
       <CleaningHero />
       <IconFeatures />
+      <ChooseSection />
     </main>
   );
 }
