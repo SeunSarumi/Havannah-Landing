@@ -1,0 +1,20 @@
+.container {
+  background-color: var(--color-feature);
+  height: 11.1rem;
+  display: flex;
+  justify-content: center;
+  gap: 10.8rem;
+}
+
+.featureContainer {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: 16.17rem;
+}
+
+.featureText {
+  font-size: 1.66rem;
+  font-weight: 700;
+  color: var(--color-primary-lighter);
+}
