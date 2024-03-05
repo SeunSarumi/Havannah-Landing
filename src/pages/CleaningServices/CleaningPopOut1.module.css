@@ -15,12 +15,26 @@
 
 .topText1 {
   font-size: 3.6rem;
+  font-weight: 800;
   color: var(--color-btn);
   line-height: 4.536rem;
 }
 
 .topText2 {
   font-size: 3.6rem;
+  font-weight: 800;
   color: var(--color-primary);
   line-height: 4.536rem;
+}
+
+.bottomTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 3.4rem 8.7rem;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 32.6px;
+  color: var(--color-black);
+  width: 70rem;
 }

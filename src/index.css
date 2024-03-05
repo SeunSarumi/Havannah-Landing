@@ -7,6 +7,7 @@
   --color-font-light: rgba(255, 255, 255, 1);
   --color-font-h2: rgba(16, 37, 66, 1);
   --color-btn: rgba(22, 192, 120, 1);
+  --color-black: rgba(0, 0, 0, 1);
 }
 
 * {
