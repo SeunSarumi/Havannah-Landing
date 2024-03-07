@@ -1,0 +1,32 @@
+.HeroContainer {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.headerContainer {
+  margin-top: 16rem;
+}
+
+.heroHeaderPrimary {
+  font-size: 8.34rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  line-height: 71px;
+  letter-spacing: -0.03em;
+}
+
+.heroHeaderSecondary {
+  font-size: 3.34rem;
+  font-weight: 700;
+  color: var(--color-btn);
+  line-height: 71px;
+  letter-spacing: -0.03em;
+}
+
+.heroImg {
+  width: 100%;
+}
