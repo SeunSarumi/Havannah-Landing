@@ -1,7 +1,8 @@
 .container {
   background-color: var(--color-font-light);
   height: 44.8rem;
-  width: 107rem;
+  /* width: 107rem; */
+  width: 50%;
   margin: 0 auto;
   box-shadow: 0px -30px 47.400001525878906px -13px rgba(0, 0, 0, 0.1);
   border-radius: 3rem 3rem 0 0;

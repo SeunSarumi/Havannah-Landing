@@ -1,5 +1,11 @@
+import HomeNav from "./HomeNav";
+
 function Homepage() {
-  return <div>Homepage</div>;
+  return (
+    <div>
+      <HomeNav />
+    </div>
+  );
 }
 
 export default Homepage;

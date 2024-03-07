@@ -1,17 +1,18 @@
-import CleaningLogo from "./CleaningLogo";
-import styles from "./CleaningNav.module.css";
+import { Link } from "react-router-dom";
+import HomeLogo from "./HomeLogo";
+import styles from "./HomeNav.module.css";
 
-function CleaningNav() {
+function HomeNav() {
   return (
     <nav className={styles.navBody}>
-      <CleaningLogo />
+      <HomeLogo />
       <div className={styles.linksContainer}>
         <a className={styles.navLink} href="">
           Home
         </a>
-        <a className={styles.navLink} href="">
+        <Link className={styles.navLink} to="/cleaningservices">
           Our Services
-        </a>
+        </Link>
         <a className={styles.navLink} href="">
           About Us
         </a>
@@ -26,4 +27,4 @@ function CleaningNav() {
   );
 }
 
-export default CleaningNav;
+export default HomeNav;
