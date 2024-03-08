@@ -1,0 +1,12 @@
+.sectionCarousel {
+  margin-top: 10rem;
+  height: 60rem;
+}
+
+.CarouselHeader {
+  font-size: 4.8rem;
+  font-weight: 800;
+  line-height: 114px;
+  color: var(--color-primary);
+  text-align: center;
+}

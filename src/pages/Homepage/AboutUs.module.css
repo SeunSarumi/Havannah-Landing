@@ -1,0 +1,31 @@
+.aboutUsSection {
+  max-width: 156rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 7rem;
+  padding: 3rem;
+}
+
+.textContainer {
+  width: 66rem;
+}
+
+.textHeader {
+  font-size: 4.8rem;
+  font-weight: 800;
+  line-height: 114px;
+}
+
+.textSecondary {
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--color-black);
+  line-height: 36px;
+}
+
+.aboutUsImage {
+  width: 100%;
+}
