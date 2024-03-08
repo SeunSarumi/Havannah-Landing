@@ -1,3 +1,4 @@
+import Gallery from "./Gallery";
 import Hero from "./Hero";
 import HomeNav from "./HomeNav";
 
@@ -6,6 +7,7 @@ function Homepage() {
     <div>
       <HomeNav />
       <Hero />
+      <Gallery />
     </div>
   );
 }

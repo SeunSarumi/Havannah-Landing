@@ -1,0 +1,16 @@
+.galleryContainer {
+  margin-top: 10rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(/public/images/gallery-imgs.png);
+
+  background-size: cover;
+  height: 35rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.gImage {
+  height: 24%;
+}

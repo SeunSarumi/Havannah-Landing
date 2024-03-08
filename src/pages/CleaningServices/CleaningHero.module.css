@@ -7,8 +7,8 @@
     url(/public/images/cleaning-hero.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 121.5rem;
-  /* margin-top: -3rem; */
+  height: 139.5rem;
+  margin-top: -7rem;
 }
 
 header {
@@ -22,6 +22,7 @@ header {
   /* margin-top: 3.9rem; */
   padding-top: 6rem;
   margin-left: 7.5rem;
+  padding: 3rem;
 }
 
 .headerPrimary {
@@ -29,6 +30,7 @@ header {
   font-weight: 700;
   line-height: 114px;
   color: var(--color-primary);
+  margin-top: 18rem;
   margin-bottom: 2rem;
 }
 
