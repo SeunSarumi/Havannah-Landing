@@ -1,0 +1,80 @@
+.footerSection {
+  height: 49.5rem;
+  background-color: rgba(0, 98, 135, 1);
+  display: flex;
+  gap: 2rem;
+  padding: 11rem 40rem;
+}
+
+.footerContainer {
+}
+
+.footerLogoContainer {
+  width: 35.9rem;
+}
+
+.footerSecondContainer {
+  width: 35.9rem;
+}
+
+.footerThirdContainer {
+  width: 35.9rem;
+}
+
+.footerInfoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footerInfoContained {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerHeading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 28.8px;
+  color: var(--color-feature);
+  margin-bottom: 2.3rem;
+}
+
+.footerInfoHeading {
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 21px;
+  color: rgba(236, 241, 244, 1);
+}
+
+.footerInfoSecondary {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgba(236, 241, 244, 1);
+}
+
+.footerBottom1 {
+  margin-top: 13rem;
+}
+
+.footerBottom2 {
+  margin-top: 21rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.btnImg {
+  width: 100%;
+}
+
+.facebook {
+  margin-top: 1.4rem;
+}

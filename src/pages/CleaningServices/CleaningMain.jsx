@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer";
 import ChooseSection from "./ChooseSection";
 import CleaningHero from "./CleaningHero";
 import CleaningNav from "./CleaningNav";
@@ -12,6 +13,7 @@ function CleaningMain() {
       <IconFeatures />
       <ChooseSection />
       <CleaningTeam />
+      <Footer />
     </main>
   );
 }

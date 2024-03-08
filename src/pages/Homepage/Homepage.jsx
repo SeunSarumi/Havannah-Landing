@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer";
 import AboutUs from "./AboutUs";
 import Carousel from "./Carousel";
 import Gallery from "./Gallery";
@@ -12,6 +13,7 @@ function Homepage() {
       <Gallery />
       <Carousel />
       <AboutUs />
+      <Footer />
     </div>
   );
 }
