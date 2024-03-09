@@ -7,6 +7,7 @@ function Carousel() {
   const settings = {
     className: "center",
     centerMode: true,
+    focusOnSelect: true,
     infinite: true,
     centerPadding: "60px",
     slidesToShow: 3,
