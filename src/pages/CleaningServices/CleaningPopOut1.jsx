@@ -5,8 +5,12 @@ function CleaningPopOut1() {
     <div className={styles.container}>
       {/* div for top text */}
       <div className={styles.topTextContainer}>
-        <h1 className={styles.topText1}>&gt; For Inquires</h1>
-        <h1 className={styles.topText2}> 07496791064</h1>
+        <h1 className={styles.topText1}>
+          <img src="/images/greater-vector.svg" alt="" /> &nbsp; For Inquires
+        </h1>
+        <a href="tel:07496791064" className={styles.topText2}>
+          <img src="/images/phone.svg" alt="" /> &nbsp; 07496791064
+        </a>
       </div>
       <div className={styles.bottomTextContainer}>
         <p>

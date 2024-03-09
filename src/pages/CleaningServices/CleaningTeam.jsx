@@ -18,7 +18,10 @@ function CleaningTeam() {
           or reliable housekeeping and home cleaning services, we're here to
           meet your needs.
         </p>
-        <p className={styles.popOutContainer2Cta}>FIND OUT MORE </p>
+        <p className={styles.popOutContainer2Cta}>
+          FIND OUT MORE &nbsp;{" "}
+          <img src="/images/greater-vector-white.svg" alt="" />{" "}
+        </p>
       </figure>
     </section>
   );

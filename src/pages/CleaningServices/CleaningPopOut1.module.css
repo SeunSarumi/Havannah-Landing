@@ -21,11 +21,14 @@
   line-height: 4.536rem;
 }
 
-.topText2 {
+.topText2:link,
+.topText2:visited {
   font-size: 3.6rem;
   font-weight: 800;
   color: var(--color-primary);
   line-height: 4.536rem;
+
+  text-decoration: none;
 }
 
 .bottomTextContainer {

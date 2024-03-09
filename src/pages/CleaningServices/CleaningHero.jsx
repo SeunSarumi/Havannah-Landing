@@ -11,7 +11,8 @@ function CleaningHero() {
           clutter-free life with our tailored solutions.
         </h3>
         <a className={styles.btn} href="">
-          Book a Session &gt;
+          Book a Session &nbsp;
+          <img src="/images/greater-vector-white.svg" alt="" />
         </a>
       </header>
       <CleaningPopOut1 />
