@@ -10,3 +10,26 @@
   color: var(--color-primary);
   text-align: center;
 }
+
+.carouselContainer {
+}
+
+.CarouselComponent {
+  text-align: center;
+  /* background-color: green; */
+  padding: 3rem;
+}
+
+.CarouselQoute {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--color-black);
+  margin-bottom: 2rem;
+}
+
+.quotedName {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-black);
+  margin-bottom: 2rem;
+}
