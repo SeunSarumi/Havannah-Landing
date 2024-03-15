@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import CleaningLogo from "./CleaningLogo";
 import styles from "./CleaningNav.module.css";
 
@@ -6,22 +7,22 @@ function CleaningNav() {
     <nav className={styles.navBody}>
       <CleaningLogo />
       <div className={styles.linksContainer}>
-        <a className={styles.navLink} href="">
+        <NavLink className={styles.navLink} to="/">
           Home
-        </a>
-        <a className={styles.navLink} href="">
+        </NavLink>
+        <NavLink className={styles.navLink} href="">
           Our Services
-        </a>
-        <a className={styles.navLink} href="">
+        </NavLink>
+        <NavLink className={styles.navLink} href="">
           About Us
-        </a>
-        <a className={styles.navLink} href="">
+        </NavLink>
+        <NavLink className={styles.navLink} href="">
           Locations
-        </a>
+        </NavLink>
       </div>
-      <a className={styles.navBtn} href="">
+      <NavLink className={styles.navBtn} href="">
         Contact Our Experts
-      </a>
+      </NavLink>
     </nav>
   );
 }

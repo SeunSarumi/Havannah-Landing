@@ -2,7 +2,7 @@ import styles from "./AboutUs.module.css";
 
 function AboutUs() {
   return (
-    <section className={styles.aboutUsSection}>
+    <section className={styles.aboutUsSection} id="aboutus">
       <img className={styles.aboutUsImage} src="/images/stars.png" alt="" />
       <div className={styles.textContainer}>
         <h2 className={styles.textHeader}>Operating in 15 Markets</h2>

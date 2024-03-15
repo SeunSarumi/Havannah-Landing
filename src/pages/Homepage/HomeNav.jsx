@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import HomeLogo from "./HomeLogo";
 import styles from "./HomeNav.module.css";
 
@@ -7,22 +7,22 @@ function HomeNav() {
     <nav className={styles.navBody}>
       <HomeLogo />
       <div className={styles.linksContainer}>
-        <a className={styles.navLink} href="">
+        <NavLink className={styles.navLink} href="">
           Home
-        </a>
-        <Link className={styles.navLink} to="/cleaningservices">
+        </NavLink>
+        <NavLink className={styles.navLink} to="/cleaningservices">
           Our Services
-        </Link>
-        <a className={styles.navLink} href="">
+        </NavLink>
+        <a className={styles.navLink} href="#aboutus">
           About Us
         </a>
-        <a className={styles.navLink} href="">
+        <NavLink className={styles.navLink} href="">
           Locations
-        </a>
+        </NavLink>
       </div>
-      <a className={styles.navBtn} href="">
+      <NavLink className={styles.navBtn} href="">
         Contact Our Experts
-      </a>
+      </NavLink>
     </nav>
   );
 }
