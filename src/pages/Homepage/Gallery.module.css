@@ -26,3 +26,31 @@
     height: 30rem;
   }
 }
+
+@media (max-width: 62.5em) {
+  .galleryContainer {
+    margin-top: 20rem;
+    height: 26rem;
+  }
+}
+
+@media (max-width: 53.75em) {
+  .galleryContainer {
+    margin-top: 20rem;
+    height: 23rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .galleryContainer {
+    margin-top: 20rem;
+    height: 20rem;
+  }
+}
+
+@media (max-width: 38.75em) {
+  .galleryContainer {
+    margin-top: 20rem;
+    height: 16rem;
+  }
+}

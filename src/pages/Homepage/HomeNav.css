@@ -140,7 +140,7 @@
 
   .linksContainer .nav-list-open {
     display: flex;
-    gap: 4rem;
+    gap: 5rem;
     font-size: 4rem;
     top: 50%;
     left: 50%;
@@ -148,5 +148,23 @@
 
   .linksContainer .nav-list-open .navBtn {
     font-size: 4rem;
+  }
+}
+
+@media (max-width: 33.75em) {
+  .navBody {
+    padding: 2rem 2rem;
+  }
+
+  .linksContainer .nav-list-open {
+    display: flex;
+    gap: 5rem;
+    font-size: 3rem;
+    top: 50%;
+    left: 50%;
+  }
+
+  .linksContainer .nav-list-open .navBtn {
+    font-size: 3rem;
   }
 }

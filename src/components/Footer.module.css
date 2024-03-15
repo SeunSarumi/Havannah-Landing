@@ -102,3 +102,59 @@
     margin-top: 4rem;
   }
 }
+
+@media (max-width: 48em) {
+  .footerSection {
+    padding: 10rem 6rem;
+    margin-top: 4rem;
+  }
+
+  .footerLogoContainer img {
+    width: 75%;
+  }
+  .footerHeading {
+    font-size: 2rem;
+  }
+
+  .footerInfoHeading {
+    font-size: 1.2rem;
+  }
+
+  .footerInfoSecondary {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 38.75em) {
+  .footerSection {
+    height: fit-content;
+    background-color: rgba(0, 98, 135, 1);
+    /* display: flex;
+    gap: 2rem; */
+    margin-top: 4rem;
+  }
+
+  .footerContainer {
+    max-width: 156rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .footerLogoContainer img {
+    width: 75%;
+  }
+  .footerHeading {
+    font-size: 2.5rem;
+  }
+
+  .footerInfoHeading {
+    font-size: 1.8rem;
+  }
+
+  .footerInfoSecondary {
+    font-size: 1.8rem;
+  }
+}

@@ -65,3 +65,43 @@
     font-size: 1.2rem;
   }
 }
+
+@media (max-width: 53.75em) {
+  .CarouselComponent {
+    padding: 1rem;
+  }
+
+  .CarouselQoute {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 38.75em) {
+  .CarouselComponent {
+    padding: 1rem;
+  }
+
+  .CarouselQoute {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 38.75em) {
+  .CarouselHeader {
+    font-size: 3.8rem;
+  }
+
+  .CarouselComponent {
+    padding: 1rem;
+  }
+
+  .CarouselQoute {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 28.75em) {
+  .CarouselHeader {
+    font-size: 2.8rem;
+  }
+}
