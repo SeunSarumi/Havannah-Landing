@@ -1,0 +1,152 @@
+.navBody {
+  background-color: var(--color-font-light);
+  display: flex;
+  justify-content: space-between;
+
+  padding: 2rem 2rem;
+  max-width: 144rem;
+  height: 12.3rem;
+  margin: 0 auto;
+}
+
+.linksContainer {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.6rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.navLink:link,
+.navLink:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-font-h2);
+}
+
+.navBtn:link,
+.navBtn:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-font-light);
+  background-color: var(--color-btn);
+  padding: 2rem 2.45rem 2rem 2.45rem;
+  font-size: 2.2rem;
+  font-weight: 800;
+  border-radius: 10px;
+  align-self: center;
+  margin-left: 6rem;
+}
+
+.mobile-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: block;
+  z-index: 9999;
+
+  display: none;
+}
+
+.mobile-open-btn {
+  height: 8rem;
+  display: none;
+}
+
+.mobile-close-btn {
+  height: 8rem;
+  display: none;
+  /* visibility: hidden; */
+}
+
+.mobile-close .mobile-close-btn {
+  display: block;
+}
+
+.mobile-close .mobile-open-btn {
+  display: none;
+}
+
+.open-nav {
+  background-color: #fff;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  transform: translateX(100%);
+
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in;
+
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+.nav-list-open {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  flex-direction: column;
+  gap: 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.linksContainer .nav-list-open {
+  display: flex;
+}
+
+/* Media Queries */
+@media (max-width: 75em) {
+  .navBody {
+    padding: 2rem 6rem;
+    max-width: 144rem;
+    height: 12.3rem;
+    margin: 0 auto;
+  }
+
+  .nav__list {
+    display: none;
+  }
+  .logo {
+    height: 6.8rem;
+  }
+
+  .mobile-button {
+    display: block;
+  }
+
+  .mobile-open-btn {
+    display: block;
+  }
+
+  .linksContainer .nav-list-open {
+    display: flex;
+    gap: 4rem;
+    font-size: 4rem;
+    top: 50%;
+    left: 50%;
+  }
+
+  .linksContainer .nav-list-open .navBtn {
+    font-size: 4rem;
+  }
+}

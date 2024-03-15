@@ -22,6 +22,7 @@
 /************************************/
 @media (max-width: 75em) {
   .galleryContainer {
+    margin-top: 20rem;
     height: 30rem;
   }
 }
