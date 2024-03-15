@@ -54,3 +54,17 @@
     height: 16rem;
   }
 }
+
+@media (max-width: 28.75em) {
+  .galleryContainer {
+    margin-top: 20rem;
+    height: 12rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .galleryContainer {
+    margin-top: 20rem;
+    height: 10rem;
+  }
+}

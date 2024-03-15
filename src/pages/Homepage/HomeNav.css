@@ -23,6 +23,7 @@
   list-style: none;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 4.8rem;
 }
 
@@ -87,9 +88,9 @@
   height: 80vh;
   transform: translateX(100%);
 
-  display: flex !important;
+  /* display: flex !important;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   transition: all 0.5s ease-in;
 
   opacity: 1;
@@ -107,11 +108,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
+  /* display: flex; */
 }
 
 .linksContainer .nav-list-open {
   display: flex;
+  flex-direction: column;
 }
 
 /* Media Queries */
@@ -126,9 +128,6 @@
   .nav__list {
     display: none;
   }
-  .logo {
-    height: 6.8rem;
-  }
 
   .mobile-button {
     display: block;
@@ -139,7 +138,6 @@
   }
 
   .linksContainer .nav-list-open {
-    display: flex;
     gap: 5rem;
     font-size: 4rem;
     top: 50%;
@@ -148,6 +146,11 @@
 
   .linksContainer .nav-list-open .navBtn {
     font-size: 4rem;
+  }
+
+  .navBtn:link,
+  .navBtn:visited {
+    margin-left: 0;
   }
 }
 
@@ -157,7 +160,6 @@
   }
 
   .linksContainer .nav-list-open {
-    display: flex;
     gap: 5rem;
     font-size: 3rem;
     top: 50%;
@@ -167,4 +169,60 @@
   .linksContainer .nav-list-open .navBtn {
     font-size: 3rem;
   }
+}
+
+@media (max-width: 28.75em) {
+  .navBody {
+    padding: 2rem 2rem;
+  }
+
+  .mobile-open-btn {
+    height: 6rem;
+  }
+
+  .mobile-close-btn {
+    height: 6rem;
+  }
+
+  .linksContainer .nav-list-open {
+    display: flex;
+    gap: 5rem;
+    font-size: 2.3rem;
+    top: 50%;
+    left: 50%;
+  }
+
+  .linksContainer .nav-list-open .navBtn {
+    font-size: 2.3rem;
+    display: flex;
+  }
+}
+
+@media (max-width: 24em) {
+  .navBody {
+    padding: 2rem 1rem;
+    max-width: 144rem;
+    height: 12.3rem;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .navBody {
+    padding: 2rem 2rem;
+  }
+
+  .linksContainer .nav-list-open {
+    display: flex;
+    gap: 5rem;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+  }
+
+  .linksContainer .nav-list-open .navBtn {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 22.8125em) {
 }

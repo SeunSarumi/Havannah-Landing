@@ -94,3 +94,17 @@
     width: 100%;
   }
 }
+
+@media (max-width: 24em) {
+  .heroHeaderPrimary {
+    font-size: 3.4rem;
+  }
+
+  .heroHeaderSecondary {
+    font-size: 1.4rem;
+  }
+
+  .heroImg {
+    width: 100%;
+  }
+}

@@ -158,3 +158,10 @@
     font-size: 1.8rem;
   }
 }
+
+@media (max-width: 20.625em) {
+  .footerSection {
+    padding: 10rem 6rem;
+    margin-top: 4rem;
+  }
+}
