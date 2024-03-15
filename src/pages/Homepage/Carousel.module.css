@@ -44,3 +44,18 @@
     margin-bottom: 2rem;
   }
 }
+
+@media (max-width: 90em) {
+  .CarouselQoute {
+    font-size: 1.5rem;
+  }
+}
+
+/************************************/
+/* Below 1200px(Landscape Devices) */
+/************************************/
+@media (max-width: 75em) {
+  .carouselContainer {
+    padding: 0 3rem;
+  }
+}

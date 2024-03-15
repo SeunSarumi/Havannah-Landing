@@ -29,3 +29,89 @@
 .aboutUsImage {
   width: 100%;
 }
+
+/* Queries */
+
+@media (max-width: 90em) {
+  .aboutUsSection {
+    max-width: 156rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 3rem;
+    padding: 3rem;
+  }
+
+  .aboutUsImage {
+    width: 90%;
+  }
+
+  .textContainer {
+    width: 57rem;
+  }
+
+  .textHeader {
+    font-size: 4.3rem;
+  }
+
+  .textSecondary {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 85em) {
+  .aboutUsSection {
+    max-width: 156rem;
+    margin-top: 7rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 3rem;
+    padding: 3rem;
+  }
+
+  .aboutUsImage {
+    width: 85%;
+  }
+
+  .textContainer {
+    width: 50rem;
+  }
+}
+/************************************/
+/* Below 1200px(Landscape Devices) */
+/************************************/
+@media (max-width: 75em) {
+  .aboutUsSection {
+    max-width: 156rem;
+    margin-top: 14rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    align-items: center;
+    justify-items: center;
+
+    padding: 3rem;
+  }
+
+  .aboutUsImage {
+    width: 65%;
+  }
+
+  .textContainer {
+    width: 69rem;
+  }
+
+  .textHeader {
+    font-size: 6rem;
+  }
+
+  .textSecondary {
+    font-size: 2.5rem;
+  }
+}

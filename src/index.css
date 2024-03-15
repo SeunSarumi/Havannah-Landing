@@ -29,3 +29,11 @@ body {
   font-size: 4rem;
   font-weight: 400;
 }
+
+/* queries */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}

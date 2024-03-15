@@ -14,3 +14,14 @@
 .gImage {
   height: 24%;
 }
+
+/* queries */
+
+/************************************/
+/* Below 1200px(Landscape Devices) */
+/************************************/
+@media (max-width: 75em) {
+  .galleryContainer {
+    height: 30rem;
+  }
+}
