@@ -25,6 +25,8 @@
   align-items: center;
   justify-content: center;
   gap: 4.8rem;
+  color: var(--color-font-h2);
+  cursor: pointer;
 }
 
 .navLink:link,

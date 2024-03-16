@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import HomeLogo from "./HomeLogo";
 import "./HomeNav.css";
 import { useRef } from "react";
@@ -30,9 +31,16 @@ function HomeNav() {
             </NavLink>
           </li>
           <li>
-            <a className="navLink" href="#aboutus">
+            <Link
+              className="navLink"
+              to="aboutus"
+              spy={true}
+              smooth={true}
+              offset={-90}
+              duration={500}
+            >
               About Us
-            </a>
+            </Link>
           </li>
           <li>
             <NavLink className="navLink" to="/">
