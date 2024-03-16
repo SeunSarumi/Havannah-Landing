@@ -1,2 +1,8 @@
 .cleaningLogo {
 }
+
+@media (max-width: 24em) {
+  .cleaningLogo {
+    width: 25%;
+  }
+}
