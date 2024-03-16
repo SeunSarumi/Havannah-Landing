@@ -23,3 +23,55 @@
   .container {
   }
 }
+
+@media (max-width: 39.375em) {
+  .container {
+    margin-top: 10rem;
+    background-color: var(--color-feature);
+    height: 11.1rem;
+    display: flex;
+    justify-content: center;
+    gap: 10.8rem;
+  }
+}
+
+@media (max-width: 37.875em) {
+  .container {
+    margin-top: 21rem;
+    background-color: var(--color-feature);
+    height: 11.1rem;
+    display: flex;
+    justify-content: center;
+    gap: 5.8rem;
+  }
+}
+
+@media (max-width: 32.375em) {
+  .container {
+    margin-top: 21rem;
+    background-color: var(--color-feature);
+    height: 11.1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
+  }
+}
+
+@media (max-width: 27.5625em) {
+  .container {
+    margin-top: 30rem;
+    background-color: var(--color-feature);
+    height: 11.1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
+  }
+  .featureContainer img {
+    width: 30%;
+  }
+  .featureText {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-primary-lighter);
+  }
+}
