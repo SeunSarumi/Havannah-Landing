@@ -1,28 +1,65 @@
 import { NavLink } from "react-router-dom";
 import CleaningLogo from "./CleaningLogo";
-import styles from "./CleaningNav.module.css";
+import "./CleaningNav.css";
+import { useRef } from "react";
 
 function CleaningNav() {
+  const navRef = useRef();
+  const listRef = useRef();
+  const navBtn = useRef();
+
+  const showNavbar = () => {
+    navRef.current.classList.toggle("open-nav2");
+    listRef.current.classList.toggle("nav-list-open2");
+    navBtn.current.classList.toggle("mobile-close2");
+  };
+
   return (
-    <nav className={styles.navBody}>
+    <nav className="navBody2">
       <CleaningLogo />
-      <div className={styles.linksContainer}>
-        <NavLink className={styles.navLink} to="/">
-          Home
-        </NavLink>
-        <NavLink className={styles.navLink} href="">
-          Our Services
-        </NavLink>
-        <NavLink className={styles.navLink} to="/#aboutus">
-          About Us
-        </NavLink>
-        <NavLink className={styles.navLink} href="">
-          Locations
-        </NavLink>
+      <div ref={navRef} className="linksContainer2">
+        <ul ref={listRef} className="nav__list2 ">
+          <li>
+            <NavLink className="navLink2" to="/">
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="navLink2" to="/cleaningservices">
+              Our Services
+            </NavLink>
+          </li>
+          <li>
+            <a className="navLink2" href="#aboutus">
+              About Us
+            </a>
+          </li>
+          <li>
+            <NavLink className="navLink2" to="/">
+              Locations
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="navBtn2">Contact Our Experts</NavLink>
+          </li>
+        </ul>
       </div>
-      <NavLink className={styles.navBtn} href="">
-        Contact Our Experts
-      </NavLink>
+      <button
+        onClick={showNavbar}
+        ref={navBtn}
+        className="mobile-button2 mobile-open2"
+      >
+        <img
+          className="mobile-open-btn2"
+          src="/images/menu.svg"
+          alt="burger menu"
+        ></img>
+        <img
+          className="mobile-close-btn2"
+          src="/images/close.svg"
+          alt="close menu"
+        ></img>
+      </button>
     </nav>
   );
 }

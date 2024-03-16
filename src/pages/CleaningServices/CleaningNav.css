@@ -1,0 +1,246 @@
+/* ******************************************************************* */
+.navBody2 {
+  background-color: var(--color-font-light);
+  display: flex;
+  justify-content: space-between;
+
+  padding: 2rem 2rem;
+  max-width: 144rem;
+  height: 12.3rem;
+  margin: 0 auto;
+}
+
+.linksContainer2 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.6rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nav__list2 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.8rem;
+}
+
+.navLink2:link,
+.navLink2:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-font-h2);
+}
+
+.navBtn2:link,
+.navBtn2:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-font-light);
+  background-color: var(--color-btn);
+  padding: 2rem 2.45rem 2rem 2.45rem;
+  font-size: 2.2rem;
+  font-weight: 800;
+  border-radius: 10px;
+  align-self: center;
+  margin-left: 6rem;
+}
+
+.mobile-button2 {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: block;
+  z-index: 9999;
+
+  display: none;
+}
+
+.mobile-open-btn2 {
+  height: 8rem;
+  display: none;
+}
+
+.mobile-close-btn2 {
+  height: 8rem;
+  display: none;
+  /* visibility: hidden; */
+}
+
+.mobile-close2 .mobile-close-btn2 {
+  display: block;
+}
+
+.mobile-close2 .mobile-open-btn2 {
+  display: none;
+}
+
+.open-nav2 {
+  background-color: #fff;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  transform: translateX(100%);
+
+  /* display: flex !important;
+  align-items: center;
+  justify-content: center; */
+  transition: all 0.5s ease-in;
+
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+.nav-list-open2 {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  flex-direction: column;
+  gap: 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* display: flex; */
+}
+
+.linksContainer2 .nav-list-open2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Media Queries */
+@media (max-width: 75em) {
+  .navBody2 {
+    padding: 3rem 16rem;
+    max-width: 144rem;
+    height: 18.3rem;
+    margin: 0 auto;
+  }
+
+  .nav__list2 {
+    display: none;
+  }
+
+  .mobile-button2 {
+    display: block;
+  }
+
+  .mobile-open-btn2 {
+    display: block;
+  }
+
+  .mobile-open-btn2 {
+    height: 9rem;
+  }
+
+  .mobile-close-btn2 {
+    height: 9rem;
+  }
+
+  .linksContainer2 .nav-list-open2 {
+    gap: 5rem;
+    font-size: 4rem;
+    top: 50%;
+    left: 50%;
+  }
+
+  .linksContainer2 .nav-list-open2 .navBtn2 {
+    font-size: 4rem;
+  }
+
+  .navBtn2:link,
+  .navBtn2:visited {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 53.75em) {
+  .navBody2 {
+    padding: 2rem 5rem;
+    max-width: 144rem;
+    height: 18.3rem;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 33.75em) {
+  .navBody2 {
+    padding: 2rem 2rem;
+  }
+
+  .linksContainer2 .nav-list-open2 {
+    gap: 5rem;
+    font-size: 3rem;
+    top: 50%;
+    left: 50%;
+  }
+
+  .linksContainer2 .nav-list-open2 .navBtn22 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 28.75em) {
+  .navBody2 {
+    padding: 2rem 2rem;
+  }
+
+  .mobile-open-btn2 {
+    height: 6rem;
+  }
+
+  .mobile-close-btn2 {
+    height: 6rem;
+  }
+
+  .linksContainer2 .nav-list-open2 {
+    display: flex;
+    gap: 5rem;
+    font-size: 2.3rem;
+    top: 50%;
+    left: 50%;
+  }
+
+  .linksContainer2 .nav-list-open2 .navBtn2 {
+    font-size: 2.3rem;
+    display: flex;
+  }
+}
+
+@media (max-width: 24em) {
+  .navBody2 {
+    padding: 2rem 1rem;
+    max-width: 144rem;
+    height: 12.3rem;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .navBody2 {
+    padding: 2rem 2rem;
+  }
+
+  .linksContainer2 .nav-list-open2 {
+    display: flex;
+    gap: 5rem;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+  }
+
+  .linksContainer2 .nav-list-open2 .navBtn2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 22.8125em) {
+}
