@@ -202,3 +202,11 @@
     text-align: center;
   }
 }
+
+@media (max-width: 28.75em) {
+  .header {
+    font-size: 4.8rem;
+    text-align: center;
+    line-height: 53px;
+  }
+}

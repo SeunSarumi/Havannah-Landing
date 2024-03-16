@@ -172,9 +172,18 @@
   }
 }
 
+@media (max-width: 48em) {
+  .navBody2 {
+    padding: 4rem 5rem;
+    max-width: 144rem;
+    height: 18.3rem;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 33.75em) {
   .navBody2 {
-    padding: 2rem 2rem;
+    padding: 4rem 2rem;
   }
 
   .linksContainer2 .nav-list-open2 {
@@ -191,7 +200,7 @@
 
 @media (max-width: 28.75em) {
   .navBody2 {
-    padding: 2rem 2rem;
+    padding: 4rem 2rem;
   }
 
   .mobile-open-btn2 {
@@ -218,7 +227,7 @@
 
 @media (max-width: 24em) {
   .navBody2 {
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
     max-width: 144rem;
     height: 12.3rem;
     align-items: center;
@@ -226,7 +235,7 @@
   }
 
   .navBody2 {
-    padding: 2rem 2rem;
+    padding: 4rem 2rem;
   }
 
   .linksContainer2 .nav-list-open2 {
@@ -242,5 +251,8 @@
   }
 }
 
-@media (max-width: 22.8125em) {
+@media (max-width: 20.625em) {
+  .navBody2 {
+    padding: 4rem 2rem;
+  }
 }
