@@ -4,7 +4,7 @@
     url(/public/images/gallery-imgs.png);
 
   background-size: cover;
-  height: 35rem;
+  height: 40rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -48,23 +48,37 @@
   }
 }
 
-@media (max-width: 38.75em) {
+@media (max-width: 40.625em) {
   .galleryContainer {
     margin-top: 20rem;
     height: 16rem;
   }
 }
 
-@media (max-width: 28.75em) {
+@media (max-width: 38.75em) {
   .galleryContainer {
     margin-top: 20rem;
     height: 12rem;
   }
 }
 
+@media (max-width: 28.75em) {
+  .galleryContainer {
+    margin-top: 20rem;
+    height: 11rem;
+  }
+}
+
 @media (max-width: 24em) {
   .galleryContainer {
     margin-top: 20rem;
-    height: 10rem;
+    height: 9rem;
+  }
+}
+
+@media (max-width: 20.625em) {
+  .galleryContainer {
+    margin-top: 20rem;
+    height: 8rem;
   }
 }

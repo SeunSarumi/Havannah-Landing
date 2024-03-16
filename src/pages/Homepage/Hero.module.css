@@ -32,6 +32,13 @@
 }
 
 @media (max-width: 48em) {
+  .HeroContainer {
+    gap: 0;
+  }
+
+  .headerContainer {
+    margin-top: 10rem;
+  }
   .heroHeaderPrimary {
     font-size: 7rem;
   }
