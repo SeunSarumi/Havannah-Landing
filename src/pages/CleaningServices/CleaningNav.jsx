@@ -13,7 +13,7 @@ function CleaningNav() {
         <NavLink className={styles.navLink} href="">
           Our Services
         </NavLink>
-        <NavLink className={styles.navLink} href="">
+        <NavLink className={styles.navLink} to="/#aboutus">
           About Us
         </NavLink>
         <NavLink className={styles.navLink} href="">

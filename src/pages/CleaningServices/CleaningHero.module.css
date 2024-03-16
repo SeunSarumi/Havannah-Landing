@@ -53,3 +53,49 @@ header {
   border-radius: 10px;
   width: fit-content;
 }
+
+/* media queries */
+@media (max-width: 90em) {
+  .hero {
+    background-image: radial-gradient(
+        145.95% 229.8% at 33.47% 93.21%,
+        rgba(255, 255, 255, 1) -22.15%,
+        rgba(255, 255, 255, 0) 45.27%
+      ),
+      url(/public/images/cleaning-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 139.5rem;
+    margin-top: -7rem;
+  }
+}
+
+@media (max-width: 63.75em) {
+  .heroTextBox {
+    display: flex;
+    flex-direction: column;
+    width: 90rem;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 3.9rem; */
+    padding-top: 6rem;
+    margin: 0 auto;
+    padding: 3rem;
+    margin-bottom: 18rem;
+  }
+
+  .headerPrimary {
+    font-size: 9.6rem;
+  }
+
+  .headerSecondary {
+    font-size: 3.2rem;
+
+    margin-bottom: 4.3rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 3.2rem;
+  }
+}
