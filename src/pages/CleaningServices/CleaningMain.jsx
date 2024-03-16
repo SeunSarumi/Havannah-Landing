@@ -6,6 +6,7 @@ import CleaningTeam from "./CleaningTeam";
 import IconFeatures from "./IconFeatures";
 
 function CleaningMain() {
+  document.title = "Havannah Cleaning Services";
   return (
     <main>
       <CleaningNav />

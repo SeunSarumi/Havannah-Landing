@@ -6,6 +6,7 @@ import Hero from "./Hero";
 import HomeNav from "./HomeNav";
 
 function Homepage() {
+  document.title = "Havannah Global Limited";
   return (
     <div>
       <HomeNav />
