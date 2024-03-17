@@ -14,7 +14,7 @@ function CleaningPopOut1() {
       </div>
       <div className={styles.bottomTextContainer}>
         <p>
-          Contact <strong>Angela Okoko</strong> to schedule your complimentary
+          Contact <strong>our experts</strong> to schedule your complimentary
           consultation. Whether you seek pristine ironing, deluxe laundry care,
           or reliable housekeeping and home cleaning services, we're here to
           meet your needs.
