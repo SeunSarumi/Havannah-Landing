@@ -49,20 +49,32 @@ function Footer() {
               <img
                 className={styles.facebook}
                 src="/images/facebook.png"
-                alt=""
+                alt="havanah global limited facebook"
               />
             </a>
             <a href="#">
-              <img src="/images/twitter.png" alt="" />
+              <img
+                src="/images/twitter.png"
+                alt="havanah global limited twitter"
+              />
             </a>
             <a href="#">
-              <img src="/images/linkedin.png" alt="" />
+              <img
+                src="/images/linkedin.png"
+                alt="havanah global limited linkedin"
+              />
             </a>
             <a href="#">
-              <img src="/images/instagram.png" alt="" />
+              <img
+                src="/images/instagram.png"
+                alt="havanah global limited instagram"
+              />
             </a>
             <a href="#">
-              <img src="/images/youtube.png" alt="" />
+              <img
+                src="/images/youtube.png"
+                alt="havanah global limited youtube"
+              />
             </a>
           </div>
         </div>

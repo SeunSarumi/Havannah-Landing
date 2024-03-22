@@ -19,6 +19,36 @@
   line-height: 114px;
 }
 
+.textSecondary1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.paddedBig {
+  padding: 1.6rem 10rem;
+  border: 2px solid rgba(0, 172, 224, 1);
+  border-radius: 53px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 36px;
+  color: rgba(0, 114, 156, 1);
+}
+
+.paddedSmall {
+  padding: 1.6rem 5.6rem;
+  border: 2px solid rgba(0, 172, 224, 1);
+  border-radius: 53px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 36px;
+  color: rgba(0, 114, 156, 1);
+}
+
+.paddedBig:hover,
+.paddedSmall:hover {
+  border: 2px solid rgba(0, 114, 156, 1);
+}
+
 .textSecondary {
   font-size: 2rem;
   font-weight: 400;
