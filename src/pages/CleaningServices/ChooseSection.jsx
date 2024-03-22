@@ -24,17 +24,19 @@ function ChooseSection() {
             </p>
           </div>
           <div className={styles.iconContained}>
-            <img src="/images/team.png" alt="team" />
-            <h3 className={styles.primaryText}>Trusted Team</h3>
+            <img src="/images/custom-settings.png" alt="team" />
+            <h3 className={styles.primaryText}>Customized Solutions</h3>
             <p className={styles.secondaryText}>
-              Carefully selected and professionally trained
+              Flexibility to accommodate client requirements
             </p>
           </div>
           <div className={styles.iconContained}>
-            <img src="/images/eco-leaf.png" alt="team" />
-            <h3 className={styles.primaryText}>Eco-Friendly</h3>
+            <img src="/images/shield.png" alt="team" />
+            <h3 className={styles.primaryText}>
+              Reliability & Trustworthiness
+            </h3>
             <p className={styles.secondaryText}>
-              Eco-Friendly products for a healthy home
+              Transparent and dependable services guaranteed
             </p>
           </div>
         </div>
