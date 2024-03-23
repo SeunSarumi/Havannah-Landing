@@ -46,15 +46,13 @@ function Carousel() {
         <Slider {...settings}>
           <div className={styles.CarouselComponent}>
             <blockquote className={styles.CarouselQoute}>
-              Lorem ipsum dolor sit amet consectetur. Cursus ante volutpat
-              dignissim ultricies proin. Elit montes nam orci lacus ut cursus
-              integer proin id. Libero nunc iaculis pretium mollis venenatis
-              facilisi viverra vestibulum. Id leo eu rhoncus nulla tristique
-              odio non cursus ac. Et nec tristique nisl eget nunc. Augue egestas
-              nulla duis cras enim venenatis enim auctor. Elit enim enim est
-              commodo est turpis neque aenean gravida.
+              Brilliant cleaning service, we have tried other companies before
+              and all been a waste of time so I am very pleased to find someone
+              who actually does a proper thorough clean. Vey polite and easy
+              communications. Would highly recommend if you are looking for a
+              house cleaner
             </blockquote>
-            <p className={styles.quotedName}> -Terry</p>
+            <p className={styles.quotedName}> -Saroj Painter</p>
           </div>
           <div className={styles.CarouselComponent}>
             <blockquote className={styles.CarouselQoute}>

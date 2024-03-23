@@ -177,6 +177,17 @@
   }
 }
 
+@media (max-width: 37.875em) {
+  .paddedBig {
+    padding: 1.63rem 5.96rem 1.63rem 6rem;
+    font-size: 2.1rem;
+  }
+  .paddedSmall {
+    padding: 1.6rem 4.6rem;
+    font-size: 2.1rem;
+  }
+}
+
 @media (max-width: 28.75em) {
   .aboutUsSection {
     max-width: 156rem;
@@ -205,6 +216,15 @@
 
   .textSecondary {
     font-size: 2.2rem;
+  }
+
+  .paddedBig {
+    padding: 1.63rem 4.96rem 1.63rem 6rem;
+    font-size: 2.1rem;
+  }
+  .paddedSmall {
+    padding: 1.6rem 3.6rem;
+    font-size: 2.1rem;
   }
 }
 
@@ -236,6 +256,15 @@
 
   .textSecondary {
     font-size: 2rem;
+  }
+
+  .paddedBig {
+    padding: 1.63rem 2.96rem 1.63rem 3rem;
+    font-size: 1.8rem;
+  }
+  .paddedSmall {
+    padding: 1.6rem 2.6rem;
+    font-size: 1.8rem;
   }
 }
 
