@@ -87,10 +87,57 @@
     align-items: center;
   }
 
+  .TextHeader {
+    font-size: 3.8rem;
+    font-weight: 800;
+    line-height: 50px;
+    color: var(--color-primary-lighter);
+  }
+
+  .TextSecondary {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.3rem;
+  }
+
   .LocationImg {
     width: 55%;
   }
   .LocationsTextContainer {
     width: 61rem;
+  }
+}
+
+@media (max-width: 37.875em) {
+  .paddedBig {
+    padding: 1.63rem 5.96rem 1.63rem 6rem;
+    font-size: 2.1rem;
+  }
+  .paddedSmall {
+    padding: 1.6rem 4.6rem;
+    font-size: 2.1rem;
+  }
+}
+
+@media (max-width: 28.75em) {
+  .paddedBig {
+    padding: 1.63rem 4.96rem 1.63rem 6rem;
+    font-size: 2.1rem;
+  }
+  .paddedSmall {
+    padding: 1.6rem 3.6rem;
+    font-size: 2.1rem;
+  }
+}
+
+@media (max-width: 24.5em) {
+  .paddedBig {
+    padding: 1.63rem 2.96rem 1.63rem 3rem;
+    font-size: 1.8rem;
+  }
+  .paddedSmall {
+    padding: 1.6rem 2.6rem;
+    font-size: 1.8rem;
   }
 }
