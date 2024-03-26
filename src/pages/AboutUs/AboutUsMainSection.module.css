@@ -50,3 +50,49 @@
   color: var(--color-black);
   margin-bottom: 3rem;
 }
+
+/* Queries */
+@media (max-width: 48em) {
+  .Header1 {
+    font-size: 7.34rem;
+    line-height: 52.12px;
+  }
+
+  .border1 {
+    width: 35rem;
+  }
+  .border2 {
+    width: 40rem;
+  }
+  .Header2 {
+    font-size: 3.5rem;
+  }
+  .writeup {
+    font-size: 2.2rem;
+    line-height: 52px;
+  }
+
+  .writeupHeader {
+    font-size: 2.2rem;
+    line-height: 52px;
+  }
+}
+
+@media (max-width: 48em) {
+  .Header1 {
+    font-size: 5.34rem;
+    line-height: 52.12px;
+  }
+
+  .Header2 {
+    font-size: 3rem;
+  }
+
+  .border1 {
+    width: 20rem;
+  }
+
+  .border2 {
+    width: 25rem;
+  }
+}
