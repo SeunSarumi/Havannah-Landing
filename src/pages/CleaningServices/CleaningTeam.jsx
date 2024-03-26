@@ -13,10 +13,9 @@ function CleaningTeam() {
           Join our Cleaning Team
         </h2>
         <p className={styles.popOutContainer2Secondary}>
-          Contact <strong>John Doe </strong> to schedule your complimentary
-          consultation. Whether you seek pristine ironing, deluxe laundry care,
-          or reliable housekeeping and home cleaning services, we're here to
-          meet your needs.
+          Contact <strong>our experts </strong> to find out about openings in
+          our company today. We'll be getting in touch with you if you're a
+          right fit for our team.
         </p>
         <p className={styles.popOutContainer2Cta}>
           FIND OUT MORE &nbsp;{" "}

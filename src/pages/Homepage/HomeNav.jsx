@@ -31,6 +31,11 @@ function HomeNav() {
             </NavLink>
           </li>
           <li>
+            <NavLink className="navLink" to="/aboutus">
+              About Us
+            </NavLink>
+          </li>
+          <li>
             <Link
               className="navLink"
               to="aboutus"
@@ -43,12 +48,12 @@ function HomeNav() {
             </Link>
           </li>
           <li>
-            <NavLink className="navLink" to="/aboutus">
-              About Us
-            </NavLink>
-          </li>
-          <li>
-            <NavLink className="navBtn">Contact Our Experts</NavLink>
+            <a
+              href="https://dejialaka.typeform.com/to/xPB9kKax"
+              className="navBtn"
+            >
+              Contact Our Experts
+            </a>
           </li>
         </ul>
       </div>

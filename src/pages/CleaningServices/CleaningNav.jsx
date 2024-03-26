@@ -30,9 +30,9 @@ function CleaningNav() {
             </NavLink>
           </li>
           <li>
-            <a className="navLink2" href="#aboutus">
+            <NavLink className="navLink2" to="/aboutus">
               About Us
-            </a>
+            </NavLink>
           </li>
           <li>
             <NavLink className="navLink2" to="/">
@@ -40,7 +40,12 @@ function CleaningNav() {
             </NavLink>
           </li>
           <li>
-            <NavLink className="navBtn2">Contact Our Experts</NavLink>
+            <a
+              href="https://dejialaka.typeform.com/to/xPB9kKax"
+              className="navBtn2"
+            >
+              Contact Our Experts
+            </a>
           </li>
         </ul>
       </div>

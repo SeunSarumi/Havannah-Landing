@@ -45,37 +45,37 @@ function Footer() {
             </h3>
           </div>
           <div className={styles.footerBottom2}>
-            <a href="#">
+            <a href="https://www.facebook.com/people/Havannah-Cleaning-Services/61557519307719/?mibextid=qi2Omg">
               <img
                 className={styles.facebook}
                 src="/images/facebook.png"
                 alt="havanah global limited facebook"
               />
             </a>
-            <a href="#">
+            {/* <a href="#">
               <img
                 src="/images/twitter.png"
                 alt="havanah global limited twitter"
               />
-            </a>
-            <a href="#">
+            </a> */}
+            {/* <a href="#">
               <img
                 src="/images/linkedin.png"
                 alt="havanah global limited linkedin"
               />
-            </a>
+            </a> */}
             <a href="#">
               <img
                 src="/images/instagram.png"
                 alt="havanah global limited instagram"
               />
             </a>
-            <a href="#">
+            {/* <a href="#">
               <img
                 src="/images/youtube.png"
                 alt="havanah global limited youtube"
               />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
