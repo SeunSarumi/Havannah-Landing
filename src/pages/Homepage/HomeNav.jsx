@@ -39,12 +39,12 @@ function HomeNav() {
               offset={-90}
               duration={500}
             >
-              About Us
+              Locations
             </Link>
           </li>
           <li>
-            <NavLink className="navLink" to="/">
-              Locations
+            <NavLink className="navLink" to="/aboutus">
+              About Us
             </NavLink>
           </li>
           <li>
