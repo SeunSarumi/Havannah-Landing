@@ -1,0 +1,52 @@
+.AboutUsSection {
+  margin-top: 4rem;
+  text-align: center;
+  padding: 4rem;
+}
+
+.Header1 {
+  font-size: 8.34rem;
+  font-weight: 700;
+  line-height: 52.12px;
+  margin-bottom: 4rem;
+  color: var(--color-primary);
+}
+
+.border1 {
+  margin: 0 auto;
+  max-width: 156rem;
+  border: 2px solid rgba(0, 174, 239, 0.3);
+  width: 46rem;
+  margin-bottom: 4.9rem;
+}
+
+.border2 {
+  margin: 0 auto;
+  max-width: 156rem;
+  border: 2px solid;
+  width: 61rem;
+  margin-bottom: 4rem;
+}
+.Header2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 2.3rem;
+}
+
+.writeup {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 52px;
+  color: var(--color-black);
+  margin-bottom: 2rem;
+  /* padding: 1rem 8rem; */
+}
+
+.writeupHeader {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 52px;
+  color: var(--color-black);
+  margin-bottom: 3rem;
+}
