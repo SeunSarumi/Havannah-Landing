@@ -3,15 +3,15 @@
 
 @media (max-width: 28.75em) {
   .cleaningLogo {
-    width: 14%;
+    width: 20%;
   }
 }
 
-@media (max-width: 27.5625em) {
+/* @media (max-width: 27.5625em) {
   .cleaningLogo {
     width: 14%;
   }
-}
+} */
 
 @media (max-width: 24em) {
   .cleaningLogo {

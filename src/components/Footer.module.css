@@ -98,6 +98,17 @@
 
 /* queries */
 
+@media (max-width: 92.5em) {
+  .footerSection {
+    height: 49.5rem;
+    background-color: rgba(0, 98, 135, 1);
+    /* display: flex;
+    gap: 2rem; */
+    padding: 11rem 16rem;
+    margin-top: 4rem;
+  }
+}
+
 /************************************/
 /* Below 1200px(Landscape Devices) */
 /************************************/
