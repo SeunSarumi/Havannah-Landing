@@ -15,9 +15,9 @@ function CleaningNav() {
   };
 
   return (
-    <nav className="navBody2">
+    <header className="navBody2">
       <CleaningLogo />
-      <div ref={navRef} className="linksContainer2">
+      <nav ref={navRef} className="linksContainer2">
         <ul ref={listRef} className="nav__list2 ">
           <li>
             <NavLink className="navLink2" to="/">
@@ -48,7 +48,7 @@ function CleaningNav() {
             </a>
           </li>
         </ul>
-      </div>
+      </nav>
       <button
         onClick={showNavbar}
         ref={navBtn}
@@ -65,7 +65,7 @@ function CleaningNav() {
           alt="close menu"
         ></img>
       </button>
-    </nav>
+    </header>
   );
 }
 

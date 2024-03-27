@@ -12,20 +12,23 @@ function Footer() {
         <div className={styles.footerSecondContainer}>
           <h1 className={styles.footerHeading}>Contact Us</h1>
           {/* container for info */}
-          <div className={styles.footerInfoContainer}>
+          <address className={styles.footerInfoContainer}>
             <div className={styles.footerInfoContained}>
               <h3 className={styles.footerInfoHeading}>Address</h3>
-              <address className={styles.footerInfoSecondary}>
+              <div className={styles.footerInfoSecondary}>
                 Cam, Bristol, Gloucester
-              </address>
+              </div>
             </div>
             <div className={styles.footerInfoContained}>
               <h3 className={styles.footerInfoHeading}>Email</h3>
-              <p className={styles.footerInfoSecondary}>
-                helpdesk@havannahgloballimted.com
-              </p>
+              <a
+                className={styles.footerAddress}
+                href="mailto:info@havannahgloballimted.com"
+              >
+                info@havannahgloballimted.com
+              </a>
             </div>
-          </div>
+          </address>
           <div className={styles.footerBottom1}>
             <button className={styles.btn}>
               <img

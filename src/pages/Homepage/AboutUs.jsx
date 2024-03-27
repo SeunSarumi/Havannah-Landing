@@ -11,12 +11,12 @@ function AboutUs() {
       <div className={styles.textContainer}>
         <h2 className={styles.textHeader}>Operating in 6 Areas</h2>
         <h3 className={styles.textSecondary1}>
-          <figure className={styles.paddedBig}>Cam & Dursley</figure>
-          <figure className={styles.paddedSmall}>Berkley</figure>
-          <figure className={styles.paddedSmall}>Stroud</figure>
-          <figure className={styles.paddedBig}>Gloucester</figure>
-          <figure className={styles.paddedBig}>Bristol</figure>
-          <figure className={styles.paddedSmall}>Stonehouse</figure>
+          <div className={styles.paddedBig}>Cam & Dursley</div>
+          <div className={styles.paddedSmall}>Berkley</div>
+          <div className={styles.paddedSmall}>Stroud</div>
+          <div className={styles.paddedBig}>Gloucester</div>
+          <div className={styles.paddedBig}>Bristol</div>
+          <div className={styles.paddedSmall}>Stonehouse</div>
         </h3>
       </div>
       {/* 2nd text */}

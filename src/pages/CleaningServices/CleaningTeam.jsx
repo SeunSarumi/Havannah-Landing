@@ -8,7 +8,7 @@ function CleaningTeam() {
         src="/images/cleaning-demo.png"
         alt=""
       />
-      <figure className={styles.popOutContainer2}>
+      <div className={styles.popOutContainer2}>
         <h2 className={styles.popOutContainer2Header}>
           Join our Cleaning Team
         </h2>
@@ -21,7 +21,7 @@ function CleaningTeam() {
           FIND OUT MORE &nbsp;{" "}
           <img src="/images/greater-vector-white.svg" alt="" />{" "}
         </p>
-      </figure>
+      </div>
     </section>
   );
 }

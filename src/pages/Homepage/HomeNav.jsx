@@ -16,9 +16,9 @@ function HomeNav() {
   };
 
   return (
-    <nav className="navBody">
+    <header className="navBody">
       <HomeLogo />
-      <div ref={navRef} className="linksContainer">
+      <nav ref={navRef} className="linksContainer">
         <ul ref={listRef} className="nav__list ">
           <li>
             <NavLink className="navLink" to="/">
@@ -56,7 +56,7 @@ function HomeNav() {
             </a>
           </li>
         </ul>
-      </div>
+      </nav>
       <button
         onClick={showNavbar}
         ref={navBtn}
@@ -73,7 +73,7 @@ function HomeNav() {
           alt="close menu"
         ></img>
       </button>
-    </nav>
+    </header>
   );
 }
 

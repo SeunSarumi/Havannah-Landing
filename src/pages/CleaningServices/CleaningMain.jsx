@@ -9,15 +9,17 @@ import IconFeatures from "./IconFeatures";
 function CleaningMain() {
   document.title = "Havannah Cleaning Services";
   return (
-    <main>
+    <div>
       <CleaningNav />
-      <CleaningHero />
-      <IconFeatures />
-      <ChooseSection />
-      <CleaningTeam />
-      <CleaningLocations />
+      <main>
+        <CleaningHero />
+        <IconFeatures />
+        <ChooseSection />
+        <CleaningTeam />
+        <CleaningLocations />
+      </main>
       <Footer />
-    </main>
+    </div>
   );
 }
 

@@ -10,10 +10,12 @@ function Homepage() {
   return (
     <div>
       <HomeNav />
-      <Hero />
-      <Gallery />
-      <Carousel />
-      <AboutUs />
+      <main>
+        <Hero />
+        <Gallery />
+        <Carousel />
+        <AboutUs />
+      </main>
       <Footer />
     </div>
   );

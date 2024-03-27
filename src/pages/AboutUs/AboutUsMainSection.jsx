@@ -4,7 +4,7 @@ function AboutUsMainSection() {
   return (
     <section className={styles.AboutUsSection}>
       <h1 className={styles.Header1}>About Us</h1>
-      <figure className={styles.border1}></figure>
+      <div className={styles.border1}></div>
       <h2 className={styles.Header2}>Havannah Global Limited</h2>
       <p className={styles.writeup}>
         At Havannah Global Limited, our commitment to Excellence Shines <br />{" "}
@@ -32,7 +32,7 @@ function AboutUsMainSection() {
         practices, HBG is disrupting the world of home organization and <br />{" "}
         improvement solutions.
       </p>
-      <figure className={styles.border2}></figure>
+      <div className={styles.border2}></div>
       <p className={styles.writeup}>
         As a parent company, Havannah Global Limited is proud of the <br />{" "}
         collective prowess of our subsidiaries. Headed by an ultramodern <br />{" "}

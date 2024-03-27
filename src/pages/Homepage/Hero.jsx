@@ -3,12 +3,12 @@ import styles from "./Hero.module.css";
 function Hero() {
   return (
     <section className={styles.HeroContainer}>
-      <header className={styles.headerContainer}>
+      <div className={styles.headerContainer}>
         <h1 className={styles.heroHeaderPrimary}>Connecting Worlds</h1>
         <h3 className={styles.heroHeaderSecondary}>
           Elevate Your Business With Our Global Services
         </h3>
-      </header>
+      </div>
       <figure>
         <img
           className={styles.heroImg}

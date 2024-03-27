@@ -7,7 +7,9 @@ function AboutUsMain() {
   return (
     <div>
       <HomeNav />
-      <AboutUsMainSection />
+      <main>
+        <AboutUsMainSection />
+      </main>
       <Footer />
     </div>
   );
