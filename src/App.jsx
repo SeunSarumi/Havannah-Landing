@@ -7,9 +7,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<Homepage />} />
-        <Route path="cleaningservices" element={<CleaningMain />} />
-        <Route path="aboutus" element={<AboutUsMain />} />
+        <Route index element={<CleaningMain />} />
+        {/* commented out to make cleaning main page */}
+        {/* <Route path="cleaningservices" element={<CleaningMain />} /> */}
+        {/* <Route path="aboutus" element={<AboutUsMain />} /> */}
       </Routes>
     </BrowserRouter>
   );

@@ -12,7 +12,7 @@ function CleaningMain() {
     "Say Goodbye To Clutter!,Book a Session and Embrace simplicity and reclaim your space. Discover the freedom of a clutter-free life with our tailored cleaning solutions ";
   return (
     <div>
-      <CleaningNav />
+      {/* <CleaningNav /> */}
       <main>
         <CleaningHero />
         <IconFeatures />
