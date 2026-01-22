@@ -23,9 +23,9 @@ function Footer() {
               <h3 className={styles.footerInfoHeading}>Email</h3>
               <a
                 className={styles.footerAddress}
-                href="mailto:info@havannahcleaning.com"
+                href="mailto:info@havannahgloballimited.com"
               >
-                info@havannahcleaning.com
+                info@havannahgloballimited.com
               </a>
             </div>
           </address>
