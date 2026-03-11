@@ -1,0 +1,50 @@
+.header {
+  font-size: 4.8rem;
+  font-weight: 800;
+  line-height: 72px;
+}
+
+.container {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContainer {
+  display: grid;
+  gap: 7rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gridItem {
+  width: 28.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.itemHeaderContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.itemHeader {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.itemText {
+  font-size: 1.6rem;
+  font-weight: 200;
+  list-style: 24px;
+  letter-spacing: 0px;
+  color: #666666;
+}
+
+.mainImg {
+  width: 100%;
+}
