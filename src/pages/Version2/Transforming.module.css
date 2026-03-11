@@ -1,0 +1,49 @@
+.sectionContainer {
+  background-image: url(/public/images/transforming-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8rem;
+  gap: 4rem;
+}
+
+.sectionContainer h1 {
+  font-size: 4.8rem;
+  font-weight: 800;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+.locationContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.locationContainer > :nth-child(5) {
+  grid-column: 2;
+}
+
+.locationContainer > :nth-child(6) {
+  grid-column: 3;
+}
+
+.paddedSmall {
+  padding: 1.6rem 4rem;
+  border: 2px solid rgba(0, 172, 224, 1);
+  border-radius: 53px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.paddedSmall:hover {
+  border: 2px solid rgba(0, 114, 156, 1);
+}
