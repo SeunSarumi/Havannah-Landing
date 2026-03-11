@@ -1,0 +1,33 @@
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.sectionContainer h1 {
+  font-size: 4.8rem;
+  font-weight: 800;
+  line-height: 72px;
+}
+
+.sectionContainer h4 {
+  font-size: 2rem;
+  color: #000000;
+  font-weight: 300;
+  line-height: 72px;
+}
+
+.button:link,
+.button:visited {
+  display: block;
+  text-decoration: none;
+  color: var(--color-font-light);
+  background-color: var(--color-btn);
+  padding: 2rem 3.428rem;
+  font-size: 1.8rem;
+  font-weight: 800;
+  border-radius: 999px;
+  width: fit-content;
+  transition: all 0.3s ease;
+}

@@ -5,6 +5,7 @@ import CarouselV2 from "./CarouselV2";
 import Hero from "./Hero";
 import styles from "./HomepageV2.module.css";
 import IconFeaturesV2 from "./IconFeaturesV2";
+import UpgradeSection from "./UpgradeSection";
 import WhyChooseUs from "./WhyChooseUs";
 
 function HomepageV2() {
@@ -23,6 +24,9 @@ function HomepageV2() {
       </section>
       <section className={styles.sectionContainer}>
         <WhyChooseUs />
+      </section>
+      <section className={styles.sectionContainer}>
+        <UpgradeSection />
       </section>
       <Footer />
     </div>
