@@ -4,24 +4,24 @@ function IconFeaturesV2() {
   return (
     <section className={styles.container}>
       <div className={styles.featureContainer}>
-        <img src="/images/house-img.png" alt="" />
-        <div className={styles.featureText}>House Cleaning</div>
-      </div>
-      <div className={styles.featureContainer}>
-        <img src="/images/office-img.png" alt="" />
+        <img src="/images/icon-img1.png" alt="" />
         <div className={styles.featureText}>Office Cleaning</div>
       </div>
       <div className={styles.featureContainer}>
-        <img src="/images/transition-img.png" alt="" />
-        <div className={styles.featureText}>Transition Cleaning</div>
+        <img src="/images/icon-img2.png" alt="" />
+        <div className={styles.featureText}>Builders Cleans</div>
       </div>
       <div className={styles.featureContainer}>
-        <img src="/images/transition-img.png" alt="" />
-        <div className={styles.featureText}>Transition Cleaning</div>
+        <img src="/images/icon-img3.png" alt="" />
+        <div className={styles.featureText}>Care Home Cleaning</div>
       </div>
       <div className={styles.featureContainer}>
-        <img src="/images/transition-img.png" alt="" />
-        <div className={styles.featureText}>Transition Cleaning</div>
+        <img src="/images/icon-img4.png" alt="" />
+        <div className={styles.featureText}>School Cleaning</div>
+      </div>
+      <div className={styles.featureContainer}>
+        <img src="/images/icon-img5.png" alt="" />
+        <div className={styles.featureText}>Airbnb Changeovers</div>
       </div>
     </section>
   );

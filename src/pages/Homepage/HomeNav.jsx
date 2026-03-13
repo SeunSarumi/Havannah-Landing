@@ -26,19 +26,33 @@ function HomeNav() {
             </NavLink>
           </li>
           <li>
-            <NavLink className="navLink" to="/cleaningservices">
+            <Link
+              className="navLink"
+              to="services"
+              spy={true}
+              smooth={true}
+              offset={-90}
+              duration={500}
+            >
               Our Services
-            </NavLink>
-          </li>
-          <li>
-            <NavLink className="navLink" to="/aboutus">
-              About Us
-            </NavLink>
+            </Link>
           </li>
           <li>
             <Link
               className="navLink"
               to="aboutus"
+              spy={true}
+              smooth={true}
+              offset={-90}
+              duration={500}
+            >
+              About Us
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="navLink"
+              to="locations"
               spy={true}
               smooth={true}
               offset={-90}
@@ -52,7 +66,7 @@ function HomeNav() {
               href="https://dejialaka.typeform.com/to/xPB9kKax"
               className="navBtn"
             >
-              Contact Our Experts
+              Contact Us
             </a>
           </li>
         </ul>

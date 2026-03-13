@@ -2,7 +2,7 @@ import styles from "./Transforming.module.css";
 
 function TransformingSection() {
   return (
-    <div className={styles.sectionContainer}>
+    <div className={styles.sectionContainer} id="locations">
       <h1>Transforming Spaces, One Clean at a Time</h1>
       <div className={styles.locationContainer}>
         <span className={styles.paddedSmall}>Cam & Dursley</span>
