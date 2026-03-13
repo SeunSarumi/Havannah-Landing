@@ -55,3 +55,23 @@
   font-weight: 400;
   color: #666666;
 }
+
+/* Tablet */
+@media (max-width: 900px) {
+  .cardContainer {
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cardContainer > :nth-child(5),
+  .cardContainer > :nth-child(6) {
+    grid-column: auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .cardContainer {
+    grid-template-columns: 1fr;
+  }
+}

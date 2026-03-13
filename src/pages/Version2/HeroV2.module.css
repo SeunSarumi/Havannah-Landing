@@ -1,7 +1,9 @@
 .heroContainer {
   display: flex;
   align-items: center;
-  gap: 14rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8rem;
 }
 
 .textContainer {

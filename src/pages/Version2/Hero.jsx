@@ -1,4 +1,4 @@
-import styles from "./Hero.module.css";
+import styles from "./HeroV2.module.css";
 
 function Hero() {
   return (
@@ -19,7 +19,7 @@ function Hero() {
           <a href="#" className={styles.button}>
             GET A FREE QUOTE
           </a>
-          <a href="#" className={styles.button}>
+          <a href="#" className={styles.buttonWhite}>
             BOOK A SITE VISIT
           </a>
         </div>

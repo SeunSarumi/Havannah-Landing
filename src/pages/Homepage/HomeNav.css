@@ -37,6 +37,11 @@
   color: var(--color-font-h2);
 }
 
+.navLink:hover {
+  color: #00abe0;
+  transition: all 0.3s;
+}
+
 .navBtn:link,
 .navBtn:visited {
   display: inline-block;
