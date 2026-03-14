@@ -36,6 +36,7 @@ function CarouselV2() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          centerPadding: "0px",
         },
       },
     ],

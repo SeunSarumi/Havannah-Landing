@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
   gap: 2.5rem;
 }
 
@@ -30,4 +31,37 @@
   border-radius: 999px;
   width: fit-content;
   transition: all 0.3s ease;
+}
+
+/* responsiveness */
+
+@media (max-width: 48em) {
+  /* 768px */
+  .sectionContainer h1 {
+    font-size: 3.8rem;
+
+    line-height: 72px;
+  }
+
+  .sectionContainer h4 {
+    font-size: 2rem;
+
+    line-height: 72px;
+  }
+}
+
+@media (max-width: 30em) {
+  /* 480px */
+  .sectionContainer h1 {
+    font-size: 3rem;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .sectionContainer h4 {
+    font-size: 2rem;
+    text-align: center;
+
+    line-height: 30px;
+  }
 }

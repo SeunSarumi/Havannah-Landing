@@ -71,6 +71,15 @@
 
 /* Mobile */
 @media (max-width: 600px) {
+  .bizHeading {
+    font-size: 3rem;
+  }
+
+  .bizSubtext {
+    font-size: 1.6rem;
+    vertical-align: middle;
+  }
+
   .cardContainer {
     grid-template-columns: 1fr;
   }
