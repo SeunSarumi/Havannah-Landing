@@ -11,3 +11,24 @@
   max-width: 128rem;
   padding-bottom: 8rem;
 }
+
+@media (max-width: 48em) {
+  /* 768px */
+  .mainSection {
+    padding-top: 4rem;
+    margin: 0 auto;
+    max-width: 128rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@media (max-width: 30em) {
+  /* 480px */
+
+  .mainSection {
+    padding-top: 2rem;
+    margin: 0 auto;
+    max-width: 128rem;
+    padding-bottom: 1rem;
+  }
+}
