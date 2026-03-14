@@ -48,3 +48,39 @@
 .mainImg {
   width: 100%;
 }
+
+/* responsiveness */
+@media (max-width: 48em) {
+  /* 768px */
+  .header {
+    font-size: 4.8rem;
+    font-weight: 800;
+    line-height: 72px;
+    text-align: center;
+  }
+
+  .container {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 30em) {
+  /* 480px */
+
+  .textContainer {
+    display: grid;
+    gap: 7rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .mainImg {
+    width: 100%;
+    padding: 1rem 4rem;
+  }
+}
