@@ -47,3 +47,59 @@
 .paddedSmall:hover {
   border: 2px solid rgba(0, 114, 156, 1);
 }
+
+/* responsiveness */
+
+@media (max-width: 48em) {
+  /* 768px */
+  .locationContainer {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .paddedSmall {
+    padding: 1.6rem 3rem;
+  }
+}
+
+@media (max-width: 30em) {
+  /* 480px */
+
+  .sectionContainer {
+    background-image: url(/public/images/transforming-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    gap: 4rem;
+  }
+
+  .sectionContainer h1 {
+    font-size: 3.2rem;
+    line-height: 40px;
+    letter-spacing: 0.41px;
+  }
+
+  .locationContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .locationContainer > :nth-child(5) {
+    grid-column: 1;
+  }
+
+  .locationContainer > :nth-child(6) {
+    grid-column: 2;
+  }
+
+  .paddedSmall {
+    padding: 1.6rem 4rem;
+    font-size: 1.6rem;
+    line-height: normal;
+  }
+}
