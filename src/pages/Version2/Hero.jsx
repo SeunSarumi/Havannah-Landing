@@ -19,13 +19,10 @@ function Hero() {
           <a href="#" className={styles.button}>
             GET A FREE QUOTE
           </a>
-          <a href="#" className={styles.buttonWhite}>
-            BOOK A SITE VISIT
-          </a>
         </div>
       </div>
       {/* imagebox */}
-      <img src="/images/hero-img.png" alt="" />
+      <img className={styles.heroImg} src="/images/hero-img.png" alt="" />
     </div>
   );
 }
