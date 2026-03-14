@@ -22,3 +22,41 @@
   font-size: 1.8rem;
   color: #ffffff;
 }
+
+/* responsiveness */
+
+@media (max-width: 48em) {
+  /* 768px */
+  .item h1 {
+    font-size: 3.8rem;
+  }
+
+  .item h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 30em) {
+  /* 480px */
+  .sectionContainer {
+    background-color: #00abe0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8rem;
+    padding: 6rem;
+  }
+
+  .item {
+    gap: 1rem;
+  }
+
+  .item h1 {
+    font-size: 4.2rem;
+  }
+
+  .item h2 {
+    font-size: 1.8rem;
+  }
+}
