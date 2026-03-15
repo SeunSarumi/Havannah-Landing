@@ -8,8 +8,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<CleaningMain />} />
-        <Route path="version2" element={<HomepageV2 />} />
+        {/* <Route index element={<CleaningMain />} /> */}
+        <Route index element={<HomepageV2 />} />
+        {/* <Route path="version2" element={<HomepageV2 />} /> */}
         {/* <Route path="version1" element={<Homepage />} /> */}
         {/* commented out to make cleaning main page */}
         {/* <Route path="aboutus" element={<AboutUsMain />} /> */}
