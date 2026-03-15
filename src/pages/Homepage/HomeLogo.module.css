@@ -2,6 +2,13 @@
   width: 100%;
 }
 
+@media (max-width: 30em) {
+  /* 480px */
+  .logo {
+    width: 75%;
+  }
+}
+
 @media (max-width: 24em) {
   .logo {
     width: 75%;

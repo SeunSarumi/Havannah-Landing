@@ -1,5 +1,7 @@
 .sectionContainer {
-  background-image: url(/public/images/transforming-background.png);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.35), rgba(141, 109, 109, 0.35)),
+    url(/public/images/transforming.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 50rem;
@@ -52,6 +54,12 @@
 
 @media (max-width: 48em) {
   /* 768px */
+
+  .sectionContainer {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.35), rgba(141, 109, 109, 0.35)),
+      url(/public/images/transforming-tab.jpg);
+  }
   .locationContainer {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -66,7 +74,7 @@
   /* 480px */
 
   .sectionContainer {
-    background-image: url(/public/images/transforming-background.png);
+    background-image: url(/public/images/transforming-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: fit-content;

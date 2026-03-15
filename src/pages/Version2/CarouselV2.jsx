@@ -24,6 +24,15 @@ function CarouselV2() {
         },
       },
       {
+        breakpoint: 780,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+          centerPadding: "20px",
+        },
+      },
+      {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
@@ -36,6 +45,8 @@ function CarouselV2() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          // fade: true,
+          // variableWidth: true,
           centerPadding: "0px",
         },
       },

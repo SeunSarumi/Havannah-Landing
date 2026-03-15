@@ -67,7 +67,7 @@
 }
 
 .mobile-open-btn {
-  height: 8rem;
+  /* height: 8rem; */
   display: none;
 }
 
@@ -185,7 +185,7 @@
   }
 
   .mobile-open-btn {
-    height: 6rem;
+    /* height: 6rem; */
   }
 
   .mobile-close-btn {

@@ -78,7 +78,7 @@ function HomeNav() {
       >
         <img
           className="mobile-open-btn"
-          src="/images/menu.svg"
+          src="/images/menu-open.svg"
           alt="burger menu"
         ></img>
         <img
