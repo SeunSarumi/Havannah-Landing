@@ -3,6 +3,23 @@ import { Link } from "react-scroll";
 import HomeLogo from "./HomeLogo";
 import "./HomeNav.css";
 import { useRef } from "react";
+import { motion } from "framer-motion";
+
+const navVariants = {
+  hidden: {},
+  visible: {
+    transition: { staggerChildren: 0.08, delayChildren: 0.2 },
+  },
+};
+
+const linkVariants = {
+  hidden: { opacity: 0, y: -12 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.4, ease: [0.22, 1, 0.36, 1] },
+  },
+};
 
 function HomeNav() {
   const navRef = useRef();
@@ -16,16 +33,27 @@ function HomeNav() {
   };
 
   return (
-    <header className="navBody">
+    <motion.header
+      className="navBody"
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+    >
       <HomeLogo />
       <nav ref={navRef} className="linksContainer">
-        <ul ref={listRef} className="nav__list ">
-          <li>
+        <motion.ul
+          ref={listRef}
+          className="nav__list"
+          variants={navVariants}
+          initial="hidden"
+          animate="visible"
+        >
+          <motion.li variants={linkVariants}>
             <NavLink className="navLink" to="/">
               Home
             </NavLink>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li variants={linkVariants}>
             <Link
               className="navLink"
               to="services"
@@ -36,8 +64,8 @@ function HomeNav() {
             >
               Our Services
             </Link>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li variants={linkVariants}>
             <Link
               className="navLink"
               to="aboutus"
@@ -48,8 +76,8 @@ function HomeNav() {
             >
               About Us
             </Link>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li variants={linkVariants}>
             <Link
               className="navLink"
               to="locations"
@@ -60,16 +88,16 @@ function HomeNav() {
             >
               Locations
             </Link>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li variants={linkVariants}>
             <a
               href="https://dejialaka.typeform.com/to/xPB9kKax"
               className="navBtn"
             >
               Contact Us
             </a>
-          </li>
-        </ul>
+          </motion.li>
+        </motion.ul>
       </nav>
       <button
         onClick={showNavbar}
@@ -80,14 +108,14 @@ function HomeNav() {
           className="mobile-open-btn"
           src="/images/menu-open.svg"
           alt="burger menu"
-        ></img>
+        />
         <img
           className="mobile-close-btn"
           src="/images/close.svg"
           alt="close menu"
-        ></img>
+        />
       </button>
-    </header>
+    </motion.header>
   );
 }
 
