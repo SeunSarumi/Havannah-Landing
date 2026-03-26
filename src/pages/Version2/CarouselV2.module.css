@@ -13,11 +13,16 @@
 
 .carouselContainer {
   margin-top: 6rem;
+  overflow: hidden;
+  padding: 0 40px;
+  box-sizing: border-box;
 }
 
 .carouselCard {
   height: fit-content;
-  width: 90rem;
+  margin: 0 auto;
+  max-width: 40rem;
+  /* width: fit-content; */
   /* border: solid 1px #dddd; */
   background-color: #ffff;
   box-shadow:
