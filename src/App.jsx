@@ -1,20 +1,24 @@
+import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Homepage from "./pages/Homepage/Homepage";
-import CleaningMain from "./pages/CleaningServices/CleaningMain";
-// import AboutUsMain from "./pages/AboutUs/AboutUsMain";
-import HomepageV2 from "./pages/Version2/HomepageV2";
+import CleaningLoader from "./components/CleaningLoader";
+
+const HomepageV2 = lazy(() => import("./pages/Version2/HomepageV2"));
+// const CleaningMain = lazy(() => import("./pages/CleaningServices/CleaningMain"));
+// const Homepage = lazy(() => import("./pages/Homepage/Homepage"));
+// const AboutUsMain = lazy(() => import("./pages/AboutUs/AboutUsMain"));
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        {/* <Route index element={<CleaningMain />} /> */}
-        <Route index element={<HomepageV2 />} />
-        {/* <Route path="version2" element={<HomepageV2 />} /> */}
-        {/* <Route path="version1" element={<Homepage />} /> */}
-        {/* commented out to make cleaning main page */}
-        {/* <Route path="aboutus" element={<AboutUsMain />} /> */}
-      </Routes>
+      <Suspense fallback={<CleaningLoader />}>
+        <Routes>
+          {/* <Route index element={<CleaningMain />} /> */}
+          <Route index element={<HomepageV2 />} />
+          {/* <Route path="version2" element={<HomepageV2 />} /> */}
+          {/* <Route path="version1" element={<Homepage />} /> */}
+          {/* <Route path="aboutus" element={<AboutUsMain />} /> */}
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   );
 }
